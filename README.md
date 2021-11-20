@@ -1,4 +1,5 @@
 ### Hi there 👋
+![header](https://capsule-render.vercel.app/api?type=waving&color=33A1FE&height=300&section=header&text=MinJun%20Choi&fontSize=90&fontColor=09213D)
 
 - 🌱 I’m currently learning...
 
