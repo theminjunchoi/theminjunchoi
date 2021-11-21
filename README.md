@@ -8,7 +8,7 @@
   - 📮  MinJun's email ...[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mj04300017@gmail.com)](mailto:mj04300017@gmail.com)
 
   - 📒  MinJun's blog ... [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=blogger&logoColor=white&link=https://plog.dev/)](https://plog.dev/)
-    - recent contents
+    
     - state lifecycle in Flutter
     - Reactive Paradigm
     - Factory Pattern
