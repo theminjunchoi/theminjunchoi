@@ -12,7 +12,7 @@
     - state lifecycle in Flutter
     - Reactive Paradigm
     - Factory Pattern
-    - Observer Pattern
+    - Observer Pattern 
 
 ![MinJun's GitHub stats](https://github-readme-stats.vercel.app/api?username=minjun0430&&show_icons=true&theme=default) 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minjun0430&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
