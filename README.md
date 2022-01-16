@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=33A1FE&height=300&section=header&text=Everything you can imagine is real%20Choi&fontSize=90&fontColor=09213D)
+![header](https://capsule-render.vercel.app/api?type=waving&color=33A1FE&height=300&section=header&text=Everything%20you%20can%20imagine%20is%20real&fontSize=90&fontColor=09213D)
 
 - <b>🛠 Tech Stack 🛠</b>
 
