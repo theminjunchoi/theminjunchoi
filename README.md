@@ -1,18 +1,41 @@
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=MinJun!&fontAlign=80&fontAlignY=40&color=gradient)
+![header](https://capsule-render.vercel.app/api?type=slice&color=30A9DE&height=170&section=header&text=MinJun%20Choi&fontColor=090707&fontAlignX=45&fontAlignY=65&fontSize=100)
 
-- <b>🛠 Tech Stack 🛠</b>
 
-    ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-    
-- <b>📫 How to reach me<b>
-  - 📮  MinJun's email ... [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mj04300017@gmail.com)](mailto:mj04300017@gmail.com)
+<h3 align="center"> 👋 Hi there 👋 </h3>
+<p align="center">
+I'm MinJun Choi, a growing developer. 🌱 <br>
+I'm now studying Flutter. ✨
+</p>
+<h3 align="center">📚 Technology Stack 📚</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/-Java-orange"/>&nbsp
+  <img src="https://img.shields.io/badge/-Kotlin-blueviolet"/>&nbsp  
+  <img src="https://img.shields.io/badge/-JavaScript-yellow"/>&nbsp
+  <img src="https://img.shields.io/badge/-Python-blue"/>&nbsp
+  <br>
+  <img src="https://img.shields.io/badge/-SpringBoot-brightgreen"/>&nbsp
+  <img src="https://img.shields.io/badge/-JPA-brightgreen"/>&nbsp
+  <img src="https://img.shields.io/badge/-Node.js-green"/>&nbsp
+  <img src="https://img.shields.io/badge/-Express.js-green"/>&nbsp
+  <img src="https://img.shields.io/badge/-Nginx-yellowgreen"/>&nbsp
+  <img src="https://img.shields.io/badge/-Docker-blue"/>&nbsp
 
-  - 📒  MinJun's blog ... [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=blogger&logoColor=white&link=https://plog.dev/)](https://plog.dev/)
-    
-    - state lifecycle in Flutter
-    - Reactive Paradigm
-    - Factory Pattern
-    - Observer Pattern 
+  <br>
+  <img src="https://img.shields.io/badge/-MySQL-navy"/>&nbsp
+  <img src="https://img.shields.io/badge/-MariaDB-navy"/>&nbsp
+  <img src="https://img.shields.io/badge/-Jenkins-lightgray"/>&nbsp
+  <img src="https://img.shields.io/badge/-AWS-black"/>&nbsp
+  <img src="https://img.shields.io/badge/-Git-black"/>&nbsp
+</p>
 
-![MinJun's GitHub stats](https://github-readme-stats.vercel.app/api?username=minjun0430&&show_icons=true&theme=default) 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minjun0430&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+<h3 align="center">•••</h3>
+
+<p align="center">
+  <a href="https://newwisdom.tistory.com/"><img src="https://img.shields.io/badge/Tech%20Blog-262626?style=flat-square&logo=D-Wave Systems&logoColor=white&link=https://newwisdom.tistory.com"/></a>&nbsp
+  <a href="https://velog.io/@new_wisdom"><img src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@new_wisdom"/></a>&nbsp
+  <a href="mailto:wlgp2500@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wlgp2500@gmail.com"/></a>
+  
+</p>
+
+![footer](https://capsule-render.vercel.app/api?type=slice&color=EFDC05&height=100&section=footer)
+
