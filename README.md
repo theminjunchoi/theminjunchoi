@@ -9,12 +9,12 @@ I'm now studying Flutter. ✨
 </p>
 <h3 align="center">📚 Tech Stack 📚</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/-Java-orange"/>&nbsp
+  <img src="https://img.shields.io/badge/-Dart-yellowgreen"/>&nbsp
   <img src="https://img.shields.io/badge/-Flutter-blue"/>&nbsp  
   <img src="https://img.shields.io/badge/-Python-blueViolet"/>&nbsp
   <br>
-    <img src="https://img.shields.io/badge/-C-green"/>&nbsp
-  <img src="https://img.shields.io/badge/-Dart-yellowgreen"/>&nbsp
+  <img src="https://img.shields.io/badge/-C-green"/>&nbsp
+  <img src="https://img.shields.io/badge/-Java-orange"/>&nbsp
   <img src="https://img.shields.io/badge/-Git-black"/>&nbsp
 </p>
 
