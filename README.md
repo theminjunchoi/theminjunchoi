@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=33A1FE&height=300&section=header&text=MinJun%20Choi&fontSize=90&fontColor=09213D)
+![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=MinJun!&fontAlign=80&fontAlignY=40&color=gradient)
 
 - <b>🛠 Tech Stack 🛠</b>
 
