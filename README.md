@@ -4,7 +4,7 @@
 <h3 align="center"> 👋 Hi there 👋 </h3>
 <p align="center">
 I'm MinJun Choi, a growing developer. 🌱 <br>
-I'm now studying __Flutter__. ✨
+I'm now studying Flutter. ✨
 
 </p>
 <h3 align="center">📚 Tech Stack 📚</h3>
