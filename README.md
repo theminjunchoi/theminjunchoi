@@ -22,10 +22,10 @@ I'm now studying Flutter. ✨
 <h3 align="center">📌 Me 📌</h3>
 
 <p align="center">
-  <a href="https://plog.dev/"><img src="https://img.shields.io/badge/Tech%20Blog-262626?style=flat-square&logo=D-Wave Systems&logoColor=white&link=https://newwisdom.tistory.com"/></a>&nbsp
+  <a href="https://plog.dev/"><img src="https://img.shields.io/badge/Blog-262626?style=flat-square&logo=D-Wave Systems&logoColor=white&link=https://newwisdom.tistory.com"/></a>&nbsp
   <a href="mailto:mj04300017@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mj04300017@gmail.com"/></a>
   
 </p>
 
-![footer](https://capsule-render.vercel.app/api?type=slice&color=10C107&height=100&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=slice&color=footer&height=100&section=footer)
 
