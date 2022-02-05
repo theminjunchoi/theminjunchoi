@@ -22,6 +22,7 @@ I'm now studying Flutter. ✨
 <h3 align="center">📌 Me 📌</h3>
 
 <p align="center">
+   [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://plog.dev/)](https://plog.dev/)
   <a href="https://plog.dev/"><img src="https://img.shields.io/badge/Tech%20Blog-262626?style=flat-square&logo=D-Wave Systems&logoColor=white&link=https://newwisdom.tistory.com"/></a>&nbsp
   <a href="mailto:mj04300017@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mj04300017@gmail.com"/></a>
   
