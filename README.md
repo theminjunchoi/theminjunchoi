@@ -27,5 +27,5 @@ I'm now studying Flutter. ✨
   
 </p>
 
-![footer](https://capsule-render.vercel.app/api?type=slice&color=footer&height=100&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=100&section=footer)
 
