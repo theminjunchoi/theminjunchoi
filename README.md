@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=170&section=header&text=MinJun%20Choi&fontColor=090707&fontAlignX=45&fontAlignY=65&fontSize=100)
+![header](https://capsule-render.vercel.app/api?type=slice&color=30A9DE&height=170&section=header&text=MinJun%20Choi&fontColor=090707&fontAlignX=45&fontAlignY=65&fontSize=100)
 
 
 <h3 align="center"> 👋 Hi there 👋 </h3>
@@ -27,5 +27,5 @@ I'm now studying Flutter. ✨
   
 </p>
 
-![footer](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=100&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=slice&color=10C107&height=100&section=footer)
 
