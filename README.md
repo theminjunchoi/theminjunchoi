@@ -1,7 +1,7 @@
-![자산 1](https://user-images.githubusercontent.com/26942349/160660685-f8acea1c-be0c-4820-8b70-2e6b6482ff24.png)
+![자산 2](https://user-images.githubusercontent.com/26942349/160661105-3c4e9bdd-8a69-4594-bc9b-fdec08364e4b.png)
 
 
-### 😄 Introduction
+## 😄 Introduction
 
 * 최민준; MinJun Choi
 
@@ -11,13 +11,13 @@
 
   
 
-### **✏️ Education** 
+## ✏️ Education 
 
 * [Software (Computer Science & Engineering)](https://cse.cau.ac.kr/main.php), Chung-Ang University (2021.03 ~ )
 
 
 
-### 🛠️ Tech Skill
+## 🛠️ Tech Skill
 
 | Classification | Skills                               |
 | :------------- | :----------------------------------- |
@@ -26,15 +26,14 @@
 | ETC            | git, Firebase                        |
 
 
-
-### 💻 Activity
+## 💻 Activity
 
 * CAU ZeroPage 31st Regular Member & 32nd vice-President (2022.03 ~ )
 * GDSC CAU Member (2021.06 ~ )
 
 
 
-### 🚀 Toy Project
+## 🚀 Toy Project
 
 * [ZeroPage Portal Page](https://github.com/ZeroPage/ZP-portal-page) with Nuxt
 * [MyPlant App](https://github.com/minjun0430/MyPlant-Application) with Flutter, Firebase
