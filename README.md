@@ -4,9 +4,7 @@
 ## 😄 Introduction
 
 * 최민준; MinJun Choi
-
 * [Personal Blog](https://choiminjun.com/)
-
 * Growing Developer
 
   
