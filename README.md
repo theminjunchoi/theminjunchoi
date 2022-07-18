@@ -1,5 +1,3 @@
-![자산 2](https://user-images.githubusercontent.com/26942349/160661105-3c4e9bdd-8a69-4594-bc9b-fdec08364e4b.png)
-
 
 ## 😄 Introduction
 
