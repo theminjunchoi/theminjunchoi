@@ -18,7 +18,7 @@
 | Classification | Skills                               |
 | :------------- | :----------------------------------- |
 | Frontend       | Nuxt, Flutter                        |
-| Language       | python, C, Java, Dart, Html, CSS, JS |
+| Language       | python, C, C++, Java, Dart, Html, CSS, JS |
 | ETC            | git, Firebase                        |
 
 
