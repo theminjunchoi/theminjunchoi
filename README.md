@@ -3,6 +3,7 @@
 
 * 최민준; MinJun Choi
 * [Personal Blog](https://choiminjun.com/)
+* Problem Solver
 * Growing Developer
 
   
@@ -25,7 +26,7 @@
 ## 💻 Activity
 
 * CAU ZeroPage 31st Regular Member & 32nd vice-President (2022.03 ~ )
-* GDSC CAU Member (2021.06 ~ )
+* GDSC CAU Member (2021.06 ~ 2022.07)
 
 
 
