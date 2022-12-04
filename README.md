@@ -34,3 +34,9 @@
 
 * [ZeroPage Portal Page](https://github.com/ZeroPage/ZP-portal-page) with Nuxt
 * [MyPlant App](https://github.com/minjun0430/MyPlant-Application) with Flutter, Firebase
+
+## 📖 Study
+* Flutter, Design Pattern Study in ZeroPage (2021.09. ~ 2021.11.)
+* Data Structure Study in ZeroPage (2022.03. ~ 2022.06.)
+* Spring, Kotlin Study in ZeroPage (2022.04 ~ 2022.07.)
+* Computer Structure Study in ZeroPage (2022.09. ~ 2022.12.)
