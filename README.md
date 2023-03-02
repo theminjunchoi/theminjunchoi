@@ -5,7 +5,7 @@
 * [Personal Blog](https://choiminjun.com/)
 * Problem Solver
 * Growing Developer
-
+* Now Serving in the Military 🪖
   
 
 ## ✏️ Education 
