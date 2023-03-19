@@ -25,7 +25,7 @@
 
 ## 💻 Activity
 
-* CAU ZeroPage 31st Regular Member & 32nd vice-President (2022.03 ~ )
+* CAU ZeroPage 31st Regular Member & 32nd vice-President (2022.03 ~ 2023.02)
 * GDSC CAU Member (2021.06 ~ 2022.07)
 
 
