@@ -5,7 +5,6 @@
 * [Personal Blog](https://minjun.blog/)
 * Problem Solver
 * Growing Developer
-* Now Serving in the Military 🪖
   
 
 ## ✏️ Education 
@@ -31,7 +30,6 @@
 
 
 ## 🚀 Toy Project
-
 * [ZeroPage Portal Page](https://github.com/ZeroPage/ZP-portal-page) with Nuxt
 * [MyPlant App](https://github.com/minjun0430/MyPlant-Application) with Flutter, Firebase
 
