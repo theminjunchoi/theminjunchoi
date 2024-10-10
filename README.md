@@ -3,8 +3,10 @@
 Hi! I'm **Minjun Choi**, I constantly reflect on whether the services I create are solving problems effectively and making a positive impact on the community I belong to. With this mindset I strive to develop better solutions and become a developer who makes a meaningful contribution to society. You can check out my [blog](https://minjun.blog/)!
 
 
+
 ## ✏️ Education 
 * [Software (Computer Science & Engineering)](https://cse.cau.ac.kr/main.php), Chung-Ang University (2021.03. ~ )
+  
 
   
 ## 💻 Activity
@@ -15,6 +17,7 @@ Hi! I'm **Minjun Choi**, I constantly reflect on whether the services I create a
 * Undergraduate researcher at [HCSLAB of Chung-Ang Univ.](https://sites.google.com/view/hcslab-cau/home?authuser=0) (2024.09. ~ ) 
 
 
+
 ## 🛠️ Tech Skill
 | Classification | Skills                               |
 | :------------- | :----------------------------------- |
@@ -23,8 +26,10 @@ Hi! I'm **Minjun Choi**, I constantly reflect on whether the services I create a
 | ETC            | git, Firebase, k8s, docker                        |
 
 
+
 ## 🚀 Toy Project
 * [ZeroPage Portal Page](https://github.com/ZeroPage/ZP-portal-page) with Nuxt
+
 
 
 ## 📖 Study
