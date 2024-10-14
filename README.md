@@ -22,7 +22,7 @@ Hi! I'm **Minjun Choi**, I constantly reflect on whether the services I create a
 | Classification | Skills                               |
 | :------------- | :----------------------------------- |
 | Framework       | Spring, Nuxt, Flutter                        |
-| Language       | Java, python, C, C++, , Dart  |
+| Language       | Java, python, C, C++, Dart  |
 | ETC            | git, Firebase, k8s, docker                        |
 
 
