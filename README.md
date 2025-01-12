@@ -39,7 +39,7 @@ Hi there! I’m **Minjun Choi**. I’m always thinking about how the services I 
 * Data Structure Study in ZeroPage (2022.03. ~ 2022.06.)
 * Spring, Kotlin Study in ZeroPage (2022.04 ~ 2022.07.)
 * Computer Structure Study in ZeroPage (2022.09. ~ 2022.12.)
-* Spring Study in GDG CAU (2024.10. ~ )
-* Kubernetes Study in GDG CAU (2024.10. ~ )
+* Spring Study in GDG CAU (2024.10. ~ 2024.12.)
+* Kubernetes Study in GDG CAU (2024.10. ~ 2024.12.)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTheMinJunChoi&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
