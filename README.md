@@ -1,6 +1,6 @@
 
 ## 😄 Introduction  
-Hi! I'm **Minjun Choi**, I constantly reflect on whether the services I create are solving problems effectively and making a positive impact on the community I belong to. With this mindset I strive to develop better solutions and become a developer who makes a meaningful contribution to society. You can check out my [blog](https://minjun.blog/)!
+Hi there! I’m **Minjun Choi**. I’m always thinking about how the services I create can truly solve problems and make a meaningful difference in the community around me. With this mindset, I’m working hard to build better solutions and grow as a developer who genuinely contributes to society. Curious about my journey? Check out my [blog](https://minjun.blog/)!
 
 
 
@@ -15,7 +15,8 @@ Hi! I'm **Minjun Choi**, I constantly reflect on whether the services I create a
 * GDSC CAU 1st Member (2021.06. ~ 2022.07.)
 * GDG on Campus CAU 4th Core Member (2024.09. ~ )
 * CECOM Member (2024.09. ~ )
-* Undergraduate researcher at [HCSLAB of Chung-Ang Univ.](https://sites.google.com/view/hcslab-cau/home?authuser=0) (2024.09. ~ ) 
+* Undergraduate researcher at [HCSLAB of Chung-Ang Univ.](https://sites.google.com/view/hcslab-cau/home?authuser=0) (2024.09. ~ 2025.01.)
+* Woowacourse 7th BE (See you soon!) 
 
 
 
