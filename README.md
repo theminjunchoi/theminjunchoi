@@ -1,6 +1,6 @@
 
 ## 😄 Introduction  
-Hi there! I’m **Minjun Choi**. I’m always thinking about how the services I create can truly solve problems and make a meaningful difference in the community around me. With this mindset, I’m working hard to build better solutions and grow as a developer who genuinely contributes to society. Curious about my journey? Check out my [blog](https://minjun.blog/)!
+Hi there! I’m **Minjun Choi** — a problem solver who’s always thinking about how to build services that actually solve problems and make a real impact. I care deeply about creating meaningful value through the code I write, not just clean features but outcomes that drive business and help people. I’m on a journey to keep learning, building, and contributing to something bigger than myself. Curious about what I’m working on? Check out my [blog](https://minjun.blog/)!
 
 
 
