@@ -13,10 +13,11 @@ Hi there! I’m **Minjun Choi** — a problem solver who’s always thinking abo
 * CAU ZeroPage 31st Regular Member (2021.03. ~ )
 * CAU ZeroPage 32nd vice-President (2022.03. ~ 2023.02.)
 * GDSC CAU 1st Member (2021.06. ~ 2022.07.)
-* GDG on Campus CAU 4th Core Member (2024.09. ~ )
+* GDG on Campus CAU 4th Core Member (2024.09. ~ 2025.08.)
 * CECOM Member (2024.09. ~ )
 * Undergraduate researcher at [HCSLAB of Chung-Ang Univ.](https://sites.google.com/view/hcslab-cau/home?authuser=0) (2024.09. ~ 2025.01.)
-* Woowacourse 7th BE 
+* Woowacourse 7th BE (2025.02. ~ 2025.11.)
+* GDG on Campus CAU 5th Organizer (2025.09. ~ )
 
 
 
