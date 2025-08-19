@@ -30,11 +30,6 @@ Hi there! I’m **Minjun Choi** — a problem solver who’s always thinking abo
 
 
 
-## 🚀 Toy Project
-* [ZeroPage Portal Page](https://github.com/ZeroPage/ZP-portal-page) with Nuxt
-
-
-
 ## 📖 Study
 * Flutter, Design Pattern Study in ZeroPage (2021.09. ~ 2021.11.)
 * Data Structure Study in ZeroPage (2022.03. ~ 2022.06.)
