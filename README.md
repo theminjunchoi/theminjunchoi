@@ -1,6 +1,6 @@
 
 ## 😄 Introduction  
-Hey, I'm Minjun Choi — a problem solver who thrives on cutting through ambiguity to get teams aligned and moving fast. I don't stay in my lane; I jump in wherever I'm needed to figure out what actually works. I'm cautious about overbuilding, but I do obsess over keeping systems clean enough that the team can keep improving them without losing their minds. Curious about what I’m working on? Check out my [blog](https://minjun.blog/)!
+Hey, I'm Minjun Choi — a problem solver who thrives on cutting through ambiguity to align teams and move fast. I don’t just stay in my lane — I jump in wherever needed to make things work. I’m cautious about overengineering, but I obsess over keeping systems clean enough for the team to iterate without losing their minds. Curious about what I’m working on? Check out my [blog](https://minjun.blog/)!
 
 
 ## ✏️ Education 
@@ -8,9 +8,9 @@ Hey, I'm Minjun Choi — a problem solver who thrives on cutting through ambigui
   
   
 ## 💻 Activity
-* GDG on Campus CAU 5th Organizer (2025.09. ~ )
+* GDGoC CAU 5th Organizer (2025.09. ~ )
 * Woowacourse 7th BE (2025.02. ~ 2025.11.)
-* GDG on Campus CAU 4th Core Member (2024.09. ~ 2025.08.)
+* GDGoC CAU 4th Core Member (2024.09. ~ 2025.08.)
 * CECOM Member (2024.09. ~ )
 * Undergraduate researcher at [HCSLAB of Chung-Ang Univ.](https://sites.google.com/view/hcslab-cau/home?authuser=0) (2024.09. ~ 2025.01.)
 * CAU ZeroPage 32nd vice-President (2022.03. ~ 2023.02.)
