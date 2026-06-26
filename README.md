@@ -8,6 +8,7 @@ Hey, I'm Minjun Choi — a problem solver who thrives on cutting through ambigui
   
   
 ## 💻 Activity
+* Nexters 29th BE Member (2026.07. ~ 2026.08.)
 * GDGoC CAU 5th Organizer (2025.09. ~ )
 * Woowacourse 7th BE (2025.02. ~ 2025.11.)
 * GDGoC CAU 4th Core Member (2024.09. ~ 2025.08.)
