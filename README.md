@@ -4,8 +4,6 @@ Hi, I'm Minjun, a backend developer. Lately I've been spending most of my time o
 
 
 ## 🌐 Open Source
-10 merged PRs across LMCache, AIBrix and KAI-Scheduler.
-
 **[LMCache](https://github.com/LMCache/LMCache)** · KV cache layer for vLLM/SGLang
 * Made the ZMQ server work through queued requests in batches instead of one per poll ([#5614](https://github.com/LMCache/LMCache/pull/5614))
 
