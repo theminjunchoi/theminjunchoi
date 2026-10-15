@@ -4,16 +4,16 @@ Hi, I'm Minjun, a backend developer. Lately I've been spending most of my time o
 
 
 ## 🌐 Open Source
-**[LMCache](https://github.com/LMCache/LMCache)** · KV cache layer for vLLM/SGLang
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang
 * Made the ZMQ server work through queued requests in batches instead of one per poll ([#5614](https://github.com/LMCache/LMCache/pull/5614))
 
-**[AIBrix](https://github.com/vllm-project/aibrix)** · vLLM's Kubernetes control plane for LLM serving
+[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving
 * Cut prefix-cache routing time by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
 * Kept model HTTPRoutes in sync with their workloads ([#3017](https://github.com/vllm-project/aibrix/pull/3017))
 * Added gateway routing for vLLM `/classify` and `/v1/messages/count_tokens` ([#3015](https://github.com/vllm-project/aibrix/pull/3015), [#3012](https://github.com/vllm-project/aibrix/pull/3012))
 * Fixed token metering for streamed `/v1/messages` ([#3009](https://github.com/vllm-project/aibrix/pull/3009))
 
-**[KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler)** · NVIDIA's Kubernetes GPU scheduler
+[kai-scheduler/KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler) · NVIDIA's Kubernetes GPU scheduler
 * Cut allocations in node scoring by up to 23% ([#2410](https://github.com/kai-scheduler/KAI-Scheduler/pull/2410))
 * Kept operator-managed objects from being garbage-collected when kai-config is recreated ([#2372](https://github.com/kai-scheduler/KAI-Scheduler/pull/2372))
 * Made a flaky pod affinity e2e test stable ([#2370](https://github.com/kai-scheduler/KAI-Scheduler/pull/2370))
