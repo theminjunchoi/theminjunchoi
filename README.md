@@ -17,6 +17,7 @@ Hi, I'm Minjun, a backend developer. Lately I've been spending most of my time o
 
 [kai-scheduler/KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler) · NVIDIA's Kubernetes GPU scheduler
 * Cut reclaim time by up to 48% and allocations by up to 75% for many small jobs ([#2420](https://github.com/kai-scheduler/KAI-Scheduler/pull/2420))
+* Cut allocations in reclaim scenario search by 7% by reusing victim job copies ([#2400](https://github.com/kai-scheduler/KAI-Scheduler/pull/2400))
 * Cut allocations in node scoring by up to 23% ([#2410](https://github.com/kai-scheduler/KAI-Scheduler/pull/2410))
 * Kept operator-managed objects from being garbage-collected when kai-config is recreated ([#2372](https://github.com/kai-scheduler/KAI-Scheduler/pull/2372))
 * Made a flaky pod affinity e2e test stable ([#2370](https://github.com/kai-scheduler/KAI-Scheduler/pull/2370))
