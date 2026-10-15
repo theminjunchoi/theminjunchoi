@@ -6,6 +6,8 @@ Hi, I'm Minjun, a backend developer. Lately I've been spending most of my time o
 ## 🌐 Open Source
 [LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang
 * Made the ZMQ server work through queued requests in batches instead of one per poll ([#5614](https://github.com/LMCache/LMCache/pull/5614))
+* Added `--concurrency` to `lmcache bench server` to compare ZMQ and gRPC ([#5735](https://github.com/LMCache/LMCache/pull/5735))
+* Found a gRPC server stall under load and cut its p99 latency from ~9 ms to 1.8 ms ([#5760](https://github.com/LMCache/LMCache/pull/5760))
 
 [vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving
 * Cut prefix-cache routing time by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
@@ -14,6 +16,7 @@ Hi, I'm Minjun, a backend developer. Lately I've been spending most of my time o
 * Fixed token metering for streamed `/v1/messages` ([#3009](https://github.com/vllm-project/aibrix/pull/3009))
 
 [kai-scheduler/KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler) · NVIDIA's Kubernetes GPU scheduler
+* Cut reclaim time by up to 48% and allocations by up to 75% for many small jobs ([#2420](https://github.com/kai-scheduler/KAI-Scheduler/pull/2420))
 * Cut allocations in node scoring by up to 23% ([#2410](https://github.com/kai-scheduler/KAI-Scheduler/pull/2410))
 * Kept operator-managed objects from being garbage-collected when kai-config is recreated ([#2372](https://github.com/kai-scheduler/KAI-Scheduler/pull/2372))
 * Made a flaky pod affinity e2e test stable ([#2370](https://github.com/kai-scheduler/KAI-Scheduler/pull/2370))
