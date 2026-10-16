@@ -1,6 +1,6 @@
 
 ## 😄 Introduction
-Hi, I'm Minjun, a backend developer. Lately I've been spending most of my time on LLM serving infrastructure, mostly fixing bugs and slow paths in projects like AIBrix, LMCache and KAI-Scheduler. I also build side projects with friends and write about them on my [blog](https://minjun.blog/).
+Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrastructure, mostly fixing bugs and performance bottlenecks in projects like AIBrix, LMCache and KAI-Scheduler. I also build side projects with friends and write about them on my [blog](https://minjun.blog/).
 
 
 ## 🌐 Open Source
@@ -10,6 +10,8 @@ Hi, I'm Minjun, a backend developer. Lately I've been spending most of my time o
 * Found a gRPC server stall under load and cut its p99 latency from ~9 ms to 1.8 ms ([#5760](https://github.com/LMCache/LMCache/pull/5760))
 
 [vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving
+* Fixed autoscaling on vLLM data-parallel pods reading only one engine's metrics ([#3096](https://github.com/vllm-project/aibrix/pull/3096))
+* Fixed LoRA prefix-cache routing by indexing KV blocks per adapter ([#3097](https://github.com/vllm-project/aibrix/pull/3097))
 * Cut prefix-cache routing time by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
 * Kept model HTTPRoutes in sync with their workloads ([#3017](https://github.com/vllm-project/aibrix/pull/3017))
 * Added gateway routing for vLLM `/classify` and `/v1/messages/count_tokens` ([#3015](https://github.com/vllm-project/aibrix/pull/3015), [#3012](https://github.com/vllm-project/aibrix/pull/3012))
@@ -29,7 +31,7 @@ Hi, I'm Minjun, a backend developer. Lately I've been spending most of my time o
   
 ## 💻 Activity
 * Nexters 29th BE Member (2026.07. ~ 2026.08.)
-* GDGoC CAU 5th Organizer (2025.09. ~ )
+* GDGoC CAU 5th Organizer (2025.09. ~ 2026.08.)
 * Woowacourse 7th BE (2025.02. ~ 2025.11.)
 * GDGoC CAU 4th Core Member (2024.09. ~ 2025.08.)
 * CECOM Member (2024.09. ~ )
