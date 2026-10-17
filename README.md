@@ -4,10 +4,11 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 
 
 ## 🌐 Open Source
-[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [4 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [6 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Cut gRPC transport p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
-* Raised ZMQ server throughput by up to 37% under concurrent load by batching requests ([#5614](https://github.com/LMCache/LMCache/pull/5614))
 * Added a concurrent-client mode to `lmcache bench server` to compare ZMQ and gRPC ([#5735](https://github.com/LMCache/LMCache/pull/5735))
+* Raised ZMQ server throughput by up to 37% under concurrent load by batching requests ([#5614](https://github.com/LMCache/LMCache/pull/5614))
+* Fixed L1 cache filling up to 100% in buffer-only mode by retrying blocked deletions ([#5802](https://github.com/LMCache/LMCache/pull/5802))
 
 [vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [8 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Built an encode stage for multimodal requests in prefill/decode disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069))
@@ -19,6 +20,7 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 
 [kai-scheduler/KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler) · NVIDIA's Kubernetes GPU scheduler · [5 merged PRs](https://github.com/kai-scheduler/KAI-Scheduler/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Cut reclaim time by up to 48% and allocations by up to 75% for many small jobs ([#2420](https://github.com/kai-scheduler/KAI-Scheduler/pull/2420))
+* Cut memory use by 53% in reclaim scenario search by reusing cloned victim jobs ([#2400](https://github.com/kai-scheduler/KAI-Scheduler/pull/2400))
 * Cut allocations in GPU node scoring by up to 23% ([#2410](https://github.com/kai-scheduler/KAI-Scheduler/pull/2410))
 
 
