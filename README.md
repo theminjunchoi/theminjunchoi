@@ -4,7 +4,7 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 
 
 ## 🌐 Open Source
-[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [6 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [5 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Cut gRPC transport p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
 * Added a concurrent-client mode to `lmcache bench server` to compare ZMQ and gRPC ([#5735](https://github.com/LMCache/LMCache/pull/5735))
 * Raised ZMQ server throughput by up to 37% under concurrent load by batching requests ([#5614](https://github.com/LMCache/LMCache/pull/5614))
