@@ -4,7 +4,7 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 
 
 ## 🌐 Open Source
-[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [8 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [9 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Built a concurrent-client mode for `lmcache bench server` to compare ZMQ and gRPC ([#5735](https://github.com/LMCache/LMCache/pull/5735))
 * Raised ZMQ server throughput by up to 37% under concurrent load via request batching ([#5614](https://github.com/LMCache/LMCache/pull/5614))
 * Cut gRPC p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
@@ -12,8 +12,8 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 * Cut gRPC recovery after a server restart from 36 s to 0.4 s by bounding reconnect backoff ([#5825](https://github.com/LMCache/LMCache/pull/5825))
 * Stopped L1 cache from filling to 100% in buffer-only mode by retrying blocked deletions ([#5802](https://github.com/LMCache/LMCache/pull/5802))
 
-[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [8 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
-* Built an encode stage for multimodal requests in prefill/decode disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069))
+[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [9 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+* Built an encode stage for multimodal requests in PD and E+PD disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069), [#3153](https://github.com/vllm-project/aibrix/pull/3153))
 * Cut prefix-cache routing latency by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
 * Fixed LoRA prefix-cache routing by indexing KV cache blocks per adapter ([#3097](https://github.com/vllm-project/aibrix/pull/3097))
 
