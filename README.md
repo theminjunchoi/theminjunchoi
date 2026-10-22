@@ -13,15 +13,16 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 * Cut gRPC recovery after a server restart from 36 s to 0.4 s by bounding reconnect backoff ([#5825](https://github.com/LMCache/LMCache/pull/5825))
 * Stopped L1 cache from filling to 100% in buffer-only mode by retrying blocked deletions ([#5802](https://github.com/LMCache/LMCache/pull/5802))
 
-[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [9 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
-* Built an encode stage for multimodal requests in PD and E+PD disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069), [#3153](https://github.com/vllm-project/aibrix/pull/3153))
+[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [10 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+* Built an encode stage for multimodal requests in PD and E+PD disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069), [#3153](https://github.com/vllm-project/aibrix/pull/3153), [#3200](https://github.com/vllm-project/aibrix/pull/3200))
 * Cut prefix-cache routing latency by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
 * Fixed LoRA prefix-cache routing by indexing KV cache blocks per adapter ([#3097](https://github.com/vllm-project/aibrix/pull/3097))
 
 [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) · vLLM's intelligent router for mixture-of-models serving
 * Cut JSON validation time by up to 44% for requests and 64% for responses ([#5204](https://github.com/vllm-project/semantic-router/pull/5204))
 
-[vllm-project/guidellm](https://github.com/vllm-project/guidellm) · Benchmarking tool for LLM inference deployments
+[vllm-project/guidellm](https://github.com/vllm-project/guidellm) · Benchmarking tool for LLM inference deployments · [2 merged PRs](https://github.com/vllm-project/guidellm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+* Added collectors that scrape server metrics from Prometheus while a benchmark runs ([#1250](https://github.com/vllm-project/guidellm/pull/1250))
 * Fixed streaming requests bypassing the mock server's concurrency limit ([#1262](https://github.com/vllm-project/guidellm/pull/1262))
 
 [kai-scheduler/KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler) · NVIDIA's Kubernetes GPU scheduler · [5 merged PRs](https://github.com/kai-scheduler/KAI-Scheduler/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
