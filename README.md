@@ -1,16 +1,15 @@
 
 ## 😄 Introduction
-Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrastructure, mostly fixing bugs and performance bottlenecks in projects like LMCache, AIBrix, vLLM Semantic Router, guidellm and KAI-Scheduler. I also build side projects with friends and write about them on my [blog](https://minjun.blog/).
+Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrastructure, mostly fixing bugs and performance bottlenecks in projects like LMCache, AIBrix, vLLM Semantic Router, guidellm, vLLM Production Stack and KAI-Scheduler. I also build side projects with friends and write about them on my [blog](https://minjun.blog/).
 
 
 ## 🌐 Open Source
 [LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [11 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
-* Built a concurrent-client mode for `lmcache bench server` to compare ZMQ and gRPC ([#5735](https://github.com/LMCache/LMCache/pull/5735))
-* Raised ZMQ server throughput by up to 37% under concurrent load via request batching ([#5614](https://github.com/LMCache/LMCache/pull/5614))
-* Cut gRPC p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
-* Raised gRPC throughput 1.9x with 32 concurrent clients by adding an asyncio server ([#5799](https://github.com/LMCache/LMCache/pull/5799))
-* Raised gRPC lookup throughput up to 2x for long prompts by converting token IDs in one call ([#5935](https://github.com/LMCache/LMCache/pull/5935))
+* Raised gRPC throughput 1.9x via an asyncio server with bounded stream read-ahead ([#5799](https://github.com/LMCache/LMCache/pull/5799), [#5858](https://github.com/LMCache/LMCache/pull/5858))
+* Sped up the gRPC codec for up to 2x lookup and 1.7x stream throughput ([#5935](https://github.com/LMCache/LMCache/pull/5935), [#5906](https://github.com/LMCache/LMCache/pull/5906))
 * Cut gRPC recovery after a server restart from 36 s to 0.4 s by bounding reconnect backoff ([#5825](https://github.com/LMCache/LMCache/pull/5825))
+* Cut gRPC p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
+* Raised ZMQ server throughput by up to 37% under concurrent load via request batching ([#5614](https://github.com/LMCache/LMCache/pull/5614))
 * Stopped L1 cache from filling to 100% in buffer-only mode by retrying blocked deletions ([#5802](https://github.com/LMCache/LMCache/pull/5802))
 
 [vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [10 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
@@ -24,6 +23,9 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 [vllm-project/guidellm](https://github.com/vllm-project/guidellm) · Benchmarking tool for LLM inference deployments · [2 merged PRs](https://github.com/vllm-project/guidellm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Added collectors that scrape server metrics from Prometheus while a benchmark runs ([#1250](https://github.com/vllm-project/guidellm/pull/1250))
 * Fixed streaming requests bypassing the mock server's concurrency limit ([#1262](https://github.com/vllm-project/guidellm/pull/1262))
+
+[vllm-project/production-stack](https://github.com/vllm-project/production-stack) · vLLM's reference stack for Kubernetes deployment
+* Kept prefill/decode model labels when a dynamic config reload rebuilds the router ([#1129](https://github.com/vllm-project/production-stack/pull/1129))
 
 [kai-scheduler/KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler) · NVIDIA's Kubernetes GPU scheduler · [5 merged PRs](https://github.com/kai-scheduler/KAI-Scheduler/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Cut reclaim time by up to 48% and allocations by up to 75% for many small jobs ([#2420](https://github.com/kai-scheduler/KAI-Scheduler/pull/2420))
