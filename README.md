@@ -1,16 +1,14 @@
 
 ## 😄 Introduction
-Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrastructure, mostly fixing bugs and performance bottlenecks in projects like LMCache, AIBrix, vLLM Semantic Router, guidellm, vLLM Production Stack and KAI-Scheduler. I also build side projects with friends and write about them on my [blog](https://minjun.blog/).
+Hi, I'm Minjun. These days I mostly work on LLM serving infrastructure. I fix bugs and performance bottlenecks in open-source projects like LMCache and AIBrix, and I'm building [pygrpc-native](https://github.com/theminjunchoi/pygrpc-native), a Rust-backed gRPC server for Python. Outside of that, I work on side projects with friends and write about them on my [blog](https://minjun.blog/).
 
 
 ## 🌐 Open Source
-[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [11 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [12 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+* Added a native gRPC server mode in Rust, outside the GIL, with 1.2x ZMQ's throughput ([#6031](https://github.com/LMCache/LMCache/pull/6031))
 * Raised gRPC throughput 1.9x via an asyncio server with bounded stream read-ahead ([#5799](https://github.com/LMCache/LMCache/pull/5799), [#5858](https://github.com/LMCache/LMCache/pull/5858))
 * Sped up the gRPC codec for up to 2x lookup and 1.7x stream throughput ([#5935](https://github.com/LMCache/LMCache/pull/5935), [#5906](https://github.com/LMCache/LMCache/pull/5906))
 * Cut gRPC recovery after a server restart from 36 s to 0.4 s by bounding reconnect backoff ([#5825](https://github.com/LMCache/LMCache/pull/5825))
-* Cut gRPC p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
-* Raised ZMQ server throughput by up to 37% under concurrent load via request batching ([#5614](https://github.com/LMCache/LMCache/pull/5614))
-* Stopped L1 cache from filling to 100% in buffer-only mode by retrying blocked deletions ([#5802](https://github.com/LMCache/LMCache/pull/5802))
 
 [vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [11 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Built an encode stage for multimodal requests in PD and E+PD disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069), [#3153](https://github.com/vllm-project/aibrix/pull/3153), [#3200](https://github.com/vllm-project/aibrix/pull/3200))
@@ -48,6 +46,7 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 
 
 ## 🚀 Projects
+* [pygrpc-native](https://github.com/theminjunchoi/pygrpc-native) - A Rust-backed gRPC server for Python, used by LMCache. (2026.10. ~ )
 * [GAMSS](https://github.com/Nexters/GAMSS-Server) - An emotional trash can for things you can't tell anyone. (2026.07. ~ )
 * [ZZOL](https://github.com/woowacourse-teams/2025-zzol) - A luck-based game that even clumsy players can enjoy! (2025.07. ~ )
 
