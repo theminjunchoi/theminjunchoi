@@ -12,7 +12,7 @@ Hi, I'm Minjun. Lately I've been spending most of my time on LLM serving infrast
 * Raised ZMQ server throughput by up to 37% under concurrent load via request batching ([#5614](https://github.com/LMCache/LMCache/pull/5614))
 * Stopped L1 cache from filling to 100% in buffer-only mode by retrying blocked deletions ([#5802](https://github.com/LMCache/LMCache/pull/5802))
 
-[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [10 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [11 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Built an encode stage for multimodal requests in PD and E+PD disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069), [#3153](https://github.com/vllm-project/aibrix/pull/3153), [#3200](https://github.com/vllm-project/aibrix/pull/3200))
 * Cut prefix-cache routing latency by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
 * Fixed LoRA prefix-cache routing by indexing KV cache blocks per adapter ([#3097](https://github.com/vllm-project/aibrix/pull/3097))
