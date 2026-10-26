@@ -1,6 +1,6 @@
 
 ## 😄 Introduction
-Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more reliable. I fix bugs and performance issues in open-source projects like LMCache and AIBrix, and I'm also building [pygrpc-native](https://github.com/theminjunchoi/pygrpc-native), a Python gRPC server backed by Rust. On the side, I make things with friends and write about them on my [blog](https://minjun.blog/).
+Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more reliable. I fix bugs and performance issues in open-source projects like LMCache and AIBrix, and I'm also building [pygrpc-native](https://github.com/pygrpc/pygrpc-native), a Python gRPC server backed by Rust. On the side, I make things with friends and write about them on my [blog](https://minjun.blog/).
 
 
 ## 🌐 Open Source
@@ -47,7 +47,7 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 
 
 ## 🚀 Projects
-* [pygrpc-native](https://github.com/theminjunchoi/pygrpc-native) - A Rust-backed gRPC server for Python, used by LMCache. (2026.10. ~ )
+* [pygrpc-native](https://github.com/pygrpc/pygrpc-native) - A Rust-backed gRPC server for Python, used by LMCache. (2026.10. ~ )
 * [GAMSS](https://github.com/Nexters/GAMSS-Server) - An emotional trash can for things you can't tell anyone. (2026.07. ~ )
 * [ZZOL](https://github.com/woowacourse-teams/2025-zzol) - A luck-based game that even clumsy players can enjoy! (2025.07. ~ )
 
