@@ -21,7 +21,7 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 * Cut prefix-cache routing latency by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
 * Fixed LoRA prefix-cache routing by indexing KV cache blocks per adapter ([#3097](https://github.com/vllm-project/aibrix/pull/3097))
 
-**Also contributed to** [KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) (5 PRs, up to 48% faster reclaim) · [guidellm](https://github.com/vllm-project/guidellm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) (2 PRs) · [semantic-router](https://github.com/vllm-project/semantic-router/pull/5204) · [production-stack](https://github.com/vllm-project/production-stack/pull/1129)
+Also contributed to [KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) (5 PRs, up to 48% faster reclaim) · [guidellm](https://github.com/vllm-project/guidellm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) (2 PRs) · [semantic-router](https://github.com/vllm-project/semantic-router/pull/5204) · [production-stack](https://github.com/vllm-project/production-stack/pull/1129)
 
 
 ## ✏️ Education 
