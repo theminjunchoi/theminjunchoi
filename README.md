@@ -5,7 +5,7 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 
 ## 🌐 Open Source
 [pygrpc/pygrpc-native](https://github.com/pygrpc/pygrpc-native) · Drop-in Python gRPC server with its HTTP/2 layer in Rust · used by LMCache
-* LMCache's native gRPC mode runs on it, and it ships in LMCache's vLLM and standalone Docker images ([#6031](https://github.com/LMCache/LMCache/pull/6031), [#6048](https://github.com/LMCache/LMCache/pull/6048))
+* Runs LMCache's native gRPC mode and ships in its Docker images ([#6031](https://github.com/LMCache/LMCache/pull/6031), [#6048](https://github.com/LMCache/LMCache/pull/6048))
 * Made LMCache's gRPC transport 21% faster than ZMQ, where grpcio was 36% slower
 * Replaces `grpc.server()` in one line, with existing servicers and interceptors unchanged
 * 1.5x grpcio's calls per second from a single client thread, 5x from 32
