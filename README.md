@@ -10,7 +10,7 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 * Replaces `grpc.server()` in one line, with existing servicers and interceptors unchanged
 * 1.5x grpcio's calls per second from a single client thread, 5x from 32
 
-[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [24 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [27 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Added a native gRPC server mode in Rust, outside the GIL, with 1.2x ZMQ's throughput ([#6031](https://github.com/LMCache/LMCache/pull/6031))
 * Raised gRPC throughput 1.9x via an asyncio server with bounded stream read-ahead ([#5799](https://github.com/LMCache/LMCache/pull/5799), [#5858](https://github.com/LMCache/LMCache/pull/5858))
 * Cut gRPC p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
@@ -21,7 +21,7 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 * Cut prefix-cache routing latency by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
 * Fixed LoRA prefix-cache routing by indexing KV cache blocks per adapter ([#3097](https://github.com/vllm-project/aibrix/pull/3097))
 
-Also contributed to [KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) (5 PRs, up to 48% faster reclaim) · [guidellm](https://github.com/vllm-project/guidellm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) (2 PRs) · [semantic-router](https://github.com/vllm-project/semantic-router/pull/5204) · [production-stack](https://github.com/vllm-project/production-stack/pull/1129)
+Also contributed to [KAI-Scheduler](https://github.com/kai-scheduler/KAI-Scheduler/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) (5 PRs, up to 48% faster reclaim) · [guidellm](https://github.com/vllm-project/guidellm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) (2 PRs) · [semantic-router](https://github.com/vllm-project/semantic-router/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi) · [production-stack](https://github.com/vllm-project/production-stack/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 
 
 ## ✏️ Education 
