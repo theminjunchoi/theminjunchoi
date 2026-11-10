@@ -16,6 +16,9 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 * Cut gRPC p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
 * Cut gRPC recovery after a server restart from 36 s to 0.4 s by bounding reconnect backoff ([#5825](https://github.com/LMCache/LMCache/pull/5825))
 
+[vllm-project/vllm](https://github.com/vllm-project/vllm) · High-throughput LLM inference and serving engine · [1 merged PR](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+* Fixed shutdown hangs in the Rust frontend, where new HTTP and gRPC clients got no response ([#65156](https://github.com/vllm-project/vllm/pull/65156))
+
 [vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [11 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Built an encode stage for multimodal requests in PD and E+PD disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069), [#3153](https://github.com/vllm-project/aibrix/pull/3153), [#3200](https://github.com/vllm-project/aibrix/pull/3200))
 * Cut prefix-cache routing latency by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
