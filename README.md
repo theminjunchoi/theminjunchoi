@@ -10,7 +10,7 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 * Replaces `grpc.server()` in one line, with existing servicers and interceptors unchanged
 * 1.5x grpcio's calls per second from a single client thread, 5x from 32
 
-[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [36 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [40 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Added a native gRPC server mode in Rust, outside the GIL, with 1.2x ZMQ's throughput ([#6031](https://github.com/LMCache/LMCache/pull/6031))
 * Raised gRPC throughput 1.9x via an asyncio server with bounded stream read-ahead ([#5799](https://github.com/LMCache/LMCache/pull/5799), [#5858](https://github.com/LMCache/LMCache/pull/5858))
 * Cut gRPC p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
@@ -19,7 +19,7 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 [vllm-project/vllm](https://github.com/vllm-project/vllm) · High-throughput LLM inference and serving engine · [1 merged PR](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Fixed shutdown hangs in the Rust frontend, where new HTTP and gRPC clients got no response ([#65156](https://github.com/vllm-project/vllm/pull/65156))
 
-[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [11 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[vllm-project/aibrix](https://github.com/vllm-project/aibrix) · vLLM's Kubernetes control plane for LLM serving · [12 merged PRs](https://github.com/vllm-project/aibrix/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Built an encode stage for multimodal requests in PD and E+PD disaggregated routing ([#3069](https://github.com/vllm-project/aibrix/pull/3069), [#3153](https://github.com/vllm-project/aibrix/pull/3153), [#3200](https://github.com/vllm-project/aibrix/pull/3200))
 * Cut prefix-cache routing latency by 42% and fixed tokenizer pool failures ([#3035](https://github.com/vllm-project/aibrix/pull/3035))
 * Fixed LoRA prefix-cache routing by indexing KV cache blocks per adapter ([#3097](https://github.com/vllm-project/aibrix/pull/3097))
