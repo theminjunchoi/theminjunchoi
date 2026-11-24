@@ -10,11 +10,13 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 * Replaces `grpc.server()` in one line, with existing servicers and interceptors unchanged
 * 1.5x grpcio's calls per second from a single client thread, 5x from 32
 
-[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [43 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
-* Added a native gRPC server mode in Rust, outside the GIL, with 1.2x ZMQ's throughput ([#6031](https://github.com/LMCache/LMCache/pull/6031))
-* Raised gRPC throughput 1.9x via an asyncio server with bounded stream read-ahead ([#5799](https://github.com/LMCache/LMCache/pull/5799), [#5858](https://github.com/LMCache/LMCache/pull/5858))
-* Cut gRPC p99 latency from ~9 ms to 1.8 ms by fixing a metrics flush stall ([#5760](https://github.com/LMCache/LMCache/pull/5760))
-* Cut gRPC recovery after a server restart from 36 s to 0.4 s by bounding reconnect backoff ([#5825](https://github.com/LMCache/LMCache/pull/5825))
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [44 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+* Published [How gRPC in LMCache Surpassed ZMQ](https://blog.lmcache.ai/en/2026/11/23/grpc-in-lmcache-surpassed-zmq/) on the official LMCache blog
+* Leading the default transport switch from ZMQ to gRPC ([#6714](https://github.com/LMCache/LMCache/issues/6714))
+* Built a Rust-native gRPC server, reaching 1.2x ZMQ's throughput ([#6031](https://github.com/LMCache/LMCache/pull/6031))
+* Raised gRPC throughput 1.9x with an asyncio server ([#5799](https://github.com/LMCache/LMCache/pull/5799))
+* Kept vLLM serving through LMCache server crashes instead of failing the engine ([#6275](https://github.com/LMCache/LMCache/pull/6275))
+* Paged KV transfers past gRPC's 2 GiB limit, cutting server peak memory 38% ([#6756](https://github.com/LMCache/LMCache/pull/6756))
 
 [vllm-project/vllm](https://github.com/vllm-project/vllm) · High-throughput LLM inference and serving engine · [1 merged PR](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Fixed shutdown hangs in the Rust frontend, where new HTTP and gRPC clients got no response ([#65156](https://github.com/vllm-project/vllm/pull/65156))
