@@ -10,7 +10,7 @@ Hi, I'm Minjun. Most of my time goes into making LLM serving faster and more rel
 * Replaces `grpc.server()` in one line, with existing servicers and interceptors unchanged
 * 1.5x grpcio's calls per second from a single client thread, 5x from 32
 
-[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [47 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
+[LMCache/LMCache](https://github.com/LMCache/LMCache) · KV cache layer for vLLM/SGLang · [49 merged PRs](https://github.com/LMCache/LMCache/pulls?q=is%3Apr+is%3Amerged+author%3Atheminjunchoi)
 * Published [How gRPC in LMCache Surpassed ZMQ](https://blog.lmcache.ai/en/2026/11/23/grpc-in-lmcache-surpassed-zmq/) on the official LMCache blog
 * Led the default transport switch from ZMQ to gRPC ([#6714](https://github.com/LMCache/LMCache/issues/6714), [#6857](https://github.com/LMCache/LMCache/pull/6857))
 * Built a Rust-native gRPC server, reaching 1.2x ZMQ's throughput ([#6031](https://github.com/LMCache/LMCache/pull/6031))
